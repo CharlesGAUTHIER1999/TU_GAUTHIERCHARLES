@@ -1,0 +1,7 @@
+spring.application.name=tpgestionlivre
+spring.datasource.url=jdbc:tc:postgresql:15://testdb
+spring.datasource.username=test
+spring.datasource.password=test
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.liquibase.enabled=true
+spring.liquibase.change-log=classpath:/db/changelog.xml
